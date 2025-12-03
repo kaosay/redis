@@ -1,6 +1,8 @@
 services:
   redis:
     image: redis:latest
+    cpus: 4.0
+    mem_limit: 10g
     container_name: redis
     restart: always
     ports:
