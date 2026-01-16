@@ -6,6 +6,7 @@ https://blog.csdn.net/weixin_42434700/article/details/146912634
 This is an installation guide.You'll learn how to install,run,and experiment with the Redis server process.
 
 ## How to install redis operator in k8s
+https://github.com/OT-CONTAINER-KIT/redis-operator
 ```
 helm repo add ot-helm https://ot-container-kit.github.io/helm-charts/
 helm repo update
