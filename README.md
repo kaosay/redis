@@ -16,6 +16,12 @@ helm upgrade --install redis-operator ot-helm/redis-operator \
   --create-namespace \
   --version 0.23.0   # 可省略，使用最新版（2026 年最新 ≈0.23.x 或更高，检查 helm search repo redis-operator）
 ```
+## Create secret of redis
+```
+ kubectl create secret generic redis-secret \
+  --from-literal=password=12345 \
+  -n redis
+```
 
 ## Query redis
 ```
