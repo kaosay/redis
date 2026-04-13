@@ -1,3 +1,5 @@
+# change owner of data directory before run this yaml
+# chown 999:999 data
 services:
   redis:
     image: redis:latest
